@@ -64,6 +64,7 @@ nav a {
 }
 .banner.profile-pic{
     width: 500px;
+    
 }
 .banner-greeting{
     font-size: 45px;
@@ -83,6 +84,10 @@ nav a {
   color: #474747;
 }
 /* main section */
+main{
+  max-width: 1140px;
+  margin: auto;
+}
 
 /* about section */
 .about{
@@ -90,4 +95,24 @@ nav a {
   border-radius: 10px;
   background: #FFF8F3;
   margin: 130px 0;
+}
+.about-info-container{
+  display: flex;
+  justify-content: space-around;
+}
+.about-info{
+  text-align: center;
+
+}
+/* skill related style */
+
+#what-i-do-description{
+  padding: 30px 150px;
+}
+.skill-container{
+  display: flex;
+}
+.skill{
+  padding: 30px;
+  gap: 24px;
 }
